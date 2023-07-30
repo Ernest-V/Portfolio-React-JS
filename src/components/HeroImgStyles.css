@@ -1,0 +1,190 @@
+.mask {
+    width: 100%;
+    /* height: 100vh; */
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+
+.into-img {
+    position: relative;
+    border-radius: 25%;
+    height: 575px;
+    width: auto;
+}
+
+.blob-img {
+    width: 39rem;
+    position: absolute;
+    z-index: 0;
+    top: 15rem;
+}
+.img-container {
+    position: relative;
+}
+
+.hero {
+    height: 100vh;
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 40px;
+    margin-bottom: 100px;
+    position: relative;
+    /* top: 30px; */
+}
+
+
+.hero .content {
+    display: flex;
+    color: #000;
+    text-align: left;
+    flex-direction: column;
+    align-content: space-around;
+    padding: 2rem;
+    flex-wrap: wrap;
+    justify-content: center;
+    line-height: 1;
+    align-items: flex-start;
+    margin-top: 3rem;
+}
+
+.hero .content h1 {
+    letter-spacing: 1px;
+    font-size: 3.8rem;
+    padding: 0.6rem 0 1.5rem;
+}
+
+.content p {
+    font-size: 1.4rem;
+    font-weight: 200;
+    letter-spacing: 1px;
+
+}
+
+.content .phb:hover {
+    transform: scale(1.2);
+}
+
+.social-icons {
+    margin-top: 2rem;
+}
+
+.social-icons a :hover {
+    background: #00ffdd;
+    border-radius: 0.5rem;
+}
+
+.portfolio-img {
+    position: relative;
+
+}
+
+@media screen and (max-width:992px) {
+    .hero {
+        height: auto;
+        width: 100%;
+        position: relative;
+        top: 25px;
+    }
+
+    .hero-content {
+        padding: 1rem;
+    }
+
+    .into-img {
+        width: 16em;
+        height: auto;
+    }
+
+    .blob-img {
+        width: 29rem;
+        top: 5.5rem;
+    }
+}
+
+.hero .content h1 {
+    font-size: 3rem;
+}
+
+.hero .content p {
+    font-size: 1.5rem;
+}
+
+.content .btn {
+    margin: 0.5rem;
+}
+
+/* .content .btn-light {
+    color: #000;
+    background: #fff;
+    border: 1px solid #000;
+} */
+
+
+@media screen and (max-width: 768px) {
+    .hero-content {
+        padding: 1rem;
+    }
+
+    .into-img {
+        height: 447px;
+        width: auto;
+    }
+
+    .blob-img {
+        width: 27rem;
+        top: 6rem;
+    }
+
+    .hero .content h1 {
+        font-size: 3rem;
+    }
+
+    .hero .content p {
+        font-size: 1.5rem;
+    }
+}
+
+@media screen and (max-width: 640px) {
+    .hero {
+        height: 80vh;
+        position: relative;
+        margin-bottom: 3rem;
+        grid-template-columns: 1fr;
+        background-image: url(../assets/blob3.svg);
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-position: bottom center;
+        overflow: hidden;
+    }
+
+    .hero-content {
+        padding: 1rem;
+    }
+
+    .hero .content h1 {
+        font-size: 2.6rem;
+        margin: 20px;
+        line-height: 1.5;
+
+
+    }
+
+    .hero .content p {
+        font-size: 1.5rem;
+        font-weight: 400;
+        margin: 20px;
+        line-height: 1.5;
+
+
+    }
+
+
+    .mask {
+        display: none;
+    }
+
+}

@@ -1,0 +1,28 @@
+form {
+    display: flex;
+    flex-direction: column;
+    padding: 4rem 2rem;
+    margin: auto;
+    max-width: 600px;
+}
+
+form input , form textarea {
+    margin-bottom: 2rem;
+    padding: 12px 18px;
+    font-size: 1.2rem;
+    color: #000;
+    border-radius: 5px;
+
+}
+
+.formSelect {
+    margin-bottom: 2rem;
+    padding: 12px 18px;
+    font-size: 1.2rem;
+    color: #000;
+    border-radius: 5px;
+
+}
+
+form h2 {color: #042723}
+form h2 span {color: #0a5c54}

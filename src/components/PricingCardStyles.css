@@ -1,0 +1,47 @@
+.pricing {
+    width: 100%;
+    padding: 6rem;
+}
+.card-container {
+    max-width: 1140px;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 40px;
+}
+.card {
+    border: 1px solid #999;
+    text-align: center;
+    padding: 1rem;
+    border-radius: 10px;
+}
+.card:hover {   background-color: #e9e9e9;  }
+.card h3 {
+    font-size: 1.4rem;
+    padding: 1rem;
+}
+.card p {   padding: 10px 0;    }
+.bar {
+    border-bottom: 1px solid #e9e9e9;
+    width: 10%;
+    margin: 1.5rem auto;
+    display: block;
+ }
+ .btc {
+    font-size: 4rem;
+    font-weight: 600;
+    padding: 1rem 0;
+ }
+ .card .btn {
+    display: inline-table;
+    max-width: 50%;
+    margin: 2rem auto;
+ }
+@media  screen and (max-width: 768px) {
+    .card-container {
+        max-width: 90%;
+        margin: auto;
+        grid-template-columns: 1fr;
+    }
+    
+}
